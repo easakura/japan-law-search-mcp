@@ -43,9 +43,9 @@ Pay per tool call. One search, one table of contents, or one article retrieval =
 
 This is a hosted (remote) MCP server, available on Apify Store:
 
-👉 **https://apify.com/plus-synergy/japan-law-search-mcp**
+👉 **https://apify.com/e-asakura/japan-law-search-mcp**
 
 The store page includes setup instructions for Claude, ChatGPT, Cursor, and any MCP-compatible client. Pay-as-you-go: $0.02 per tool call, no subscription.
 
 ---
-*Built by [Plus Synergy](https://apify.com/plus-synergy) — Japanese data infrastructure for AI agents. Part of the SEKISHO series: [subsidies](https://apify.com/plus-synergy/japan-subsidy-search-mcp) / [laws](https://apify.com/plus-synergy/japan-law-search-mcp) / [parliament](https://apify.com/plus-synergy/japan-parliament-search-mcp).*
+*Built by [Edward Asakura](https://apify.com/e-asakura) — Japanese data infrastructure for AI agents. Part of the SEKISHO series: [subsidies](https://apify.com/e-asakura/japan-subsidy-search-mcp) / [laws](https://apify.com/e-asakura/japan-law-search-mcp) / [parliament](https://apify.com/e-asakura/japan-parliament-search-mcp).*
