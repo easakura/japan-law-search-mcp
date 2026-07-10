@@ -1,0 +1,7 @@
+{
+  "tool-call": {
+    "eventTitle": "MCP tool call",
+    "eventDescription": "One law search, table-of-contents retrieval, or article text retrieval",
+    "eventPriceUsd": 0.02
+  }
+}

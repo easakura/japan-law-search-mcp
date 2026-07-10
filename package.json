@@ -1,0 +1,30 @@
+{
+  "name": "horei-mcp",
+  "version": "0.1.0",
+  "description": "日本の法令（e-Gov法令API）をAIエージェントから検索・参照できるMCPサーバー",
+  "type": "module",
+  "bin": {
+    "horei-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "demo": "node test/demo.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "agents": "^0.17.3",
+    "apify": "^3.7.2",
+    "express": "^5.2.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0",
+    "wrangler": "^4.108.0"
+  }
+}

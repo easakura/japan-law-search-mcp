@@ -1,0 +1,38 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "horei-mcp",
+  "main": "src/worker.ts",
+  "compatibility_date": "2025-03-10",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "class_name": "HoreiMCP",
+        "name": "MCP_OBJECT"
+      },
+      {
+        "class_name": "RateLimiterDO",
+        "name": "RATE_LIMITER_DO"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "HoreiMCP"
+      ]
+    },
+    {
+      "tag": "v2",
+      "new_sqlite_classes": [
+        "RateLimiterDO"
+      ]
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}

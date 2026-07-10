@@ -1,0 +1,17 @@
+{
+  "actorSpecification": 1,
+  "name": "japan-law-search-mcp",
+  "title": "Japan Law Search MCP (日本の法令検索)",
+  "description": "MCP server for searching all ~10,000 Japanese laws & regulations. Full-text search, table of contents, and article text from official e-Gov data.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "usesStandbyMode": true,
+  "webServerMcpPath": "/mcp",
+  "input": {
+    "title": "Japan Law Search MCP",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {},
+    "required": []
+  }
+}
